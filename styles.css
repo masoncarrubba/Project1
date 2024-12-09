@@ -1,11 +1,9 @@
-/* Resetting default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -13,9 +11,8 @@ body {
     line-height: 1.6;
 }
 
-/* Header styles */
 header {
-    background-color: #2C6A4F; /* Green background */
+    background-color: #2C6A4F; 
     color: white; /* White text */
     padding: 20px 0;
     text-align: center;
@@ -44,13 +41,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #A1D99B; /* Light green on hover */
+    color: #A1D99B; 
 }
 
-/* Hero section */
 .hero {
     text-align: center;
-    background-color: #A1D99B; /* Light green background */
+    background-color: #A1D99B; 
     padding: 40px 20px;
 }
 
@@ -73,7 +69,7 @@ nav ul li a:hover {
 }
 
 .hero .cta {
-    background-color: #2C6A4F; /* Green button */
+    background-color: #2C6A4F; 
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -82,10 +78,9 @@ nav ul li a:hover {
 }
 
 .hero .cta:hover {
-    background-color: #A1D99B; /* Light green on hover */
+    background-color: #A1D99B; 
 }
 
-/* Mission section */
 .mission {
     padding: 20px;
     text-align: center;
@@ -103,7 +98,6 @@ nav ul li a:hover {
     line-height: 1.8;
 }
 
-/* Footer styles */
 footer {
     background-color: #2C6A4F;
     color: white;
@@ -116,7 +110,6 @@ footer p {
     font-size: 14px;
 }
 
-/* Responsive design for smaller screens */
 @media screen and (max-width: 768px) {
     .hero h2 {
         font-size: 28px;
