@@ -44,32 +44,31 @@ nav ul li a:hover {
     color: #A1D99B; 
 }
 
-.sustainable {
+.hero {
     text-align: center;
     background-color: #A1D99B; 
     padding: 40px 20px;
 }
 
-.sustainable img {
+.hero img {
     width: 100%;
     max-width: 600px;
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
-    text-align:center;
 }
 
-.sustainable h2 {
+.hero h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
 
-.sustainable p {
+.hero p {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-.sustainable .cta {
+.hero .cta {
     background-color: #2C6A4F; 
     color: white;
     padding: 10px 20px;
@@ -78,21 +77,21 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-.sustainable .cta:hover {
+.hero .cta:hover {
     background-color: #A1D99B; 
 }
 
-.ecostyle {
+.mission {
     padding: 20px;
     text-align: center;
 }
 
-.ecostyle h2 {
+.mission h2 {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
-.ecostyle p {
+.mission p {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
@@ -112,19 +111,19 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-    .sustainable h2 {
+    .hero h2 {
         font-size: 28px;
     }
 
-    .sustainable p {
+    .hero p {
         font-size: 16px;
     }
 
-    .ecostyle h2 {
+    .mission h2 {
         font-size: 24px;
     }
 
-    .ecostyle p {
+    .mission p {
         font-size: 16px;
     }
 
