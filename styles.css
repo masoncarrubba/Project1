@@ -56,6 +56,7 @@ nav ul li a:hover {
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
+    text-align:center;
 }
 
 .sustainable h2 {
